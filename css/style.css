@@ -314,6 +314,12 @@ body {
   margin-bottom: 150px;
 }
 
+@media (max-width: 400px) {
+  .roasted__inner {
+    padding: 200px 0;
+  }
+}
+
 .rosted__title {
   font-weight: 400;
   font-size: 55px;
