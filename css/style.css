@@ -220,6 +220,10 @@ body {
     flex-direction: column;
     gap: 20px;
   }
+
+  .main__explore-btn {
+    margin-right: 0;
+  }
 }
 
 .main__image {
@@ -316,16 +320,23 @@ body {
 
 @media (max-width: 400px) {
   .roasted__inner {
-    padding: 200px 0;
+    padding: 140px 0;
   }
 }
 
-.rosted__title {
+.roasted__title {
   font-weight: 400;
   font-size: 55px;
   line-height: 65px;
   color: #000000;
   padding: 0 15px;
+}
+
+@media (max-width: 400px) {
+  .roasted__title {
+    font-size: 30px;
+    line-height: 35px;
+  }
 }
 
 .roasted__text {
@@ -337,6 +348,12 @@ body {
   margin: 0 auto;
   margin-bottom: 20px;
   padding: 0 15px;
+}
+
+@media (max-width: 400px) {
+  .roasted__text {
+    font-size: 12px;
+  }
 }
 
 .products__inner {
