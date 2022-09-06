@@ -85,8 +85,14 @@ body {
 
   .hamburger {
     position: absolute;
-    right: 70px;
-    top: 15px;
+    right: 80px;
+    top: -5px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
 
@@ -138,6 +144,7 @@ body {
   line-height: 70px;
   color: #232020;
   margin-bottom: 33px;
+  text-align: center;
 }
 
 @media (max-width: 780px) {
@@ -153,6 +160,10 @@ body {
   }
 
   .main__text {
+    text-align: center;
+  }
+
+  .main__buttons {
     text-align: center;
   }
 }
